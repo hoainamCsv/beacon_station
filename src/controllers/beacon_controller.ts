@@ -42,7 +42,7 @@ class Beaconcontroller{
             imageUrl: "https://i.kym-cdn.com/photos/images/original/001/688/905/3b7.jpg",
           },
         });
-
+      console.log(send)
       }
 }
 
