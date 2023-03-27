@@ -25,7 +25,9 @@ class Beaconcontroller{
             });
         }catch(e){
             console.log(e);
-            response.send({})
+            response.send({
+              'error': e
+            })
         }
        
       }
